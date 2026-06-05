@@ -8,7 +8,7 @@ body {
     background: #fffbe6; 
     /* Darker text for high contrast */
     color: #2e2e2e; 
-    font-family: 'Roboto', sans-serif;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -110,7 +110,7 @@ body {
 
 .user-msg {
     /* Pale Saffron/Peach for user input */
-    background: #ffecd9; 
+    background: #f0f8ff;
     color: #2e2e2e; /* Dark text for readability */
     padding: 10px;
     border-radius: 8px;
@@ -119,8 +119,8 @@ body {
 }
 
 .bot-msg {
-    background: #f0f8ff; 
-    color: #fdbed7;
+    background: #ffecd9; 
+    color: #2e2e2e;
     padding: 10px;
     border-radius: 8px;
     margin: 8px 0;
