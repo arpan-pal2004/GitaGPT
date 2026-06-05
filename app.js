@@ -258,14 +258,14 @@ function answerQuestion(query) {
 
         reply += `
             <div style="margin-bottom:14px;">
-                <div style="background:#2a2a2a;padding:12px;border-radius:8px;">
+                <div style=";padding:12px;border-radius:8px;">
                     ${para.verse ? `<b>Verse: ${para.verse}</b><br><br>` : ""}
                     <div class="verse-content">
                         ${highlightedContent}
                     </div>
                     ${
                         para.translation
-                            ? `<br><br><b>Translation:</b><br>${highlightedTranslation}`
+                            ? `<br><br><b><center>Translation:</center></b><br>${highlightedTranslation}`
                             : ""
                     }
                 </div>
